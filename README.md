@@ -31,6 +31,27 @@ mlflow
 mlflow ui --backend-store-uri sqlite:///mlflow.db
 mlflow ui --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns
 ```
+```
+#  Example of mlflow code
+with mlflow.start_run():
+
+    mlflow.set_tag("developer", "rp")
+
+    mlflow.log_param("train-data-path", "../data/yellow_tripdata_2021-01.parquet")
+    mlflow.log_param("valid-data-path", "../data/yellow_tripdata_2021-02.parquet")
+
+    alpha = 0.12
+    mlflow.log_param("alpha", alpha)
+    lr = Lasso(alpha)
+    lr.fit(X_train, y_train)
+
+    y_pred = lr.predict(X_val)
+    rmse = mean_squared_error(y_val, y_pred, squared=False)
+    mlflow.log_metric("rmse", rmse)
+
+    mlflow.log_artifact(local_path="models/lin_reg.bin", artifact_path="models_pickle")  # Save model from local path to artifact 
+```
+
 ![image](https://github.com/rajpgr8/mlops-demo/assets/23621486/969eb493-d02e-4629-bfa5-9cf8baeb55a2)
 
 ### Screenshot of jupyter notebook
