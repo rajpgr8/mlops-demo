@@ -1,4 +1,4 @@
-# mlops-demo with python
+# mlops-demo with python, just for learning 
 
 ### commands
 ```
