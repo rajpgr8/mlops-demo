@@ -23,10 +23,11 @@ mlflow ui --backend-store-uri sqlite:///mlflow.db
 mlflow ui --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns
 ```
 
-!![image](https://github.com/rajpgr8/mlops-demo/assets/23621486/12aebdd5-14d0-4236-933a-868ae315e234)
+![image](https://github.com/rajpgr8/mlops-demo/assets/23621486/12aebdd5-14d0-4236-933a-868ae315e234)   
 
 
-!![image](https://github.com/rajpgr8/mlops-demo/assets/23621486/c14d3a09-0ac1-4160-b2a1-d43d60053d5e)
+
+![image](https://github.com/rajpgr8/mlops-demo/assets/23621486/c14d3a09-0ac1-4160-b2a1-d43d60053d5e)
 
 
 
