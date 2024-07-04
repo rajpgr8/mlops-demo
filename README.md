@@ -23,19 +23,20 @@ jupyter notebook
 conda create -n exp-tracking-env
 conda activate exp-tracking-env
 
-# List all install python packages
+# List all installed python packages
 pip list  # you can see mlflow and othe ml related packages
 
-# Explore mlflow
+# mlflow comands
 mlflow
 mlflow ui --backend-store-uri sqlite:///mlflow.db
 mlflow ui --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns
 ```
+### Screenshot of jupyter notebook
 
 ![image](https://github.com/rajpgr8/mlops-demo/assets/23621486/360a35b9-5a7f-4681-9b25-d1438506d9b0)   
 
-![image](https://github.com/rajpgr8/mlops-demo/assets/23621486/12aebdd5-14d0-4236-933a-868ae315e234)   
-
+### Screenshot of mlflow UI
+![image](https://github.com/rajpgr8/mlops-demo/assets/23621486/11e08d95-ee56-4cc3-886c-df776690a5e3)
 
 
 ![image](https://github.com/rajpgr8/mlops-demo/assets/23621486/c14d3a09-0ac1-4160-b2a1-d43d60053d5e)
