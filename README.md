@@ -32,7 +32,7 @@ mlflow ui --backend-store-uri sqlite:///mlflow.db
 mlflow ui --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns
 ```
 ```
-#  Example of mlflow code
+#  Example of mlflow code, how to use log_param/log_param/log_metric/log_artifact
 with mlflow.start_run():
 
     mlflow.set_tag("developer", "rp")
