@@ -31,6 +31,8 @@ mlflow
 mlflow ui --backend-store-uri sqlite:///mlflow.db
 mlflow ui --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns
 ```
+![image](https://github.com/rajpgr8/mlops-demo/assets/23621486/969eb493-d02e-4629-bfa5-9cf8baeb55a2)
+
 ### Screenshot of jupyter notebook
 
 ![image](https://github.com/rajpgr8/mlops-demo/assets/23621486/360a35b9-5a7f-4681-9b25-d1438506d9b0)   
