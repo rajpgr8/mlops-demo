@@ -65,5 +65,10 @@ with mlflow.start_run():
 
 ![image](https://github.com/rajpgr8/mlops-demo/assets/23621486/c14d3a09-0ac1-4160-b2a1-d43d60053d5e)
 
+### model file and local mlflow artifact
+![image](https://github.com/rajpgr8/mlops-demo/assets/23621486/a9e12cb3-4883-4770-81ea-9ef951db9be6)
+
+![image](https://github.com/rajpgr8/mlops-demo/assets/23621486/02272e40-a7a5-4f56-92e2-a9c41e0eb3d1)
+
 
 
