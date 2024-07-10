@@ -3,6 +3,26 @@
 
 ### commands
 ```
+# Start with creating virtual env
+python3 -m venv .venv
+source .venv/bin/activate
+
+# Inside virtual env, run these
+pip install -r requirements.txt
+python3 -m ipykernel install --user --name={PROJECT_NAME}
+jupyter notebook
+
+
+=> For example, run these commands 
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r mlops-demo/01-intro/requirements.txt
+python3 -m ipykernel install --user --name=mlops
+code mlops-demo/01-intro
+    => Then Select kernel in VSCODE like .venv(Python 3.8.20), and run notebook locally.
+    => OR run 'jupyter notebook' to open Juyper notebook in the browser
+```
+
+```
 # Insatll Anaconda3
 wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
 bash Anaconda3-2022.05-Linux-x86_64.sh
