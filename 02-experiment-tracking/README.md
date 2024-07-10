@@ -1,6 +1,6 @@
-## Homework
+## 02-experiment-tracking
 
-The goal of this homework is to get familiar with MLflow, the tool for experiment tracking and 
+The goal of this section is to get familiar with MLflow, the tool for experiment tracking and 
 model management.
 
 ### Commands:
