@@ -1,7 +1,11 @@
 ## mlops-demo with python, just for learning   
 ( Ref: https://github.com/DataTalksClub/mlops-zoomcamp )
 
-### commands
+### 
+
+- Create virtual environment and activate it (eg. `python -m venv venv && source ./venv/bin/activate` or `conda create -n venv python=3.11 && conda activate venv`)
+- Install required packages `pip install -r requirements.txt`
+
 ```
 # Start with creating virtual env
 python3 -m venv .venv
