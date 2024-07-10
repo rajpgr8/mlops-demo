@@ -1,0 +1,17 @@
+What's the standard deviation of the predicted duration for this dataset?
+=> 6.247488852238703
+
+What's the size of the output file?
+=>
+
+Which command you need to execute for creating scoring script?
+=>
+
+What's the first hash for the Scikit-Learn dependency?
+=>
+
+What's the mean predicted duration? 
+=>
+
+What's the mean predicted duration for May 2023? 
+=>
