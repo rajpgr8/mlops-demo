@@ -48,8 +48,3 @@ Where to place a dashboard config file?
 * `project_folder/config`  (05-monitoring/config)
 * `project_folder/dashboards`  (05-monitoring/dashboards)
 * `project_folder/data`  (05-monitoring/data)
-
-
-## Submit the results
-
-* Submit your answers here: https://courses.datatalks.club/mlops-zoomcamp-2024/homework/hw5

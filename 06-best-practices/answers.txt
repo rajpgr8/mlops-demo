@@ -1,0 +1,8 @@
+How many rows should be there in the expected dataframe?
+=>
+
+What's the size of the file?
+=>
+
+What's the sum of predicted durations for the test dataframe?
+=>
