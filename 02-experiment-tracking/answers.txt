@@ -1,0 +1,15 @@
+How many files were saved to OUTPUT_FOLDER?
+=> 4
+
+What is the value of the min_samples_split parameter?
+=>
+
+In addition to backend-store-uri, what else do you need to pass to properly configure the server?
+=>
+
+What's the best validation RMSE that you got?
+=>
+
+What is the test RMSE of the best model?
+=>
+
