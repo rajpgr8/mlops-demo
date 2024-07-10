@@ -3,12 +3,31 @@
 The goal of this homework is to get familiar with MLflow, the tool for experiment tracking and 
 model management.
 
+### Commands:
+```
+0. 
+mlflow --version
+
+1.
+python preprocess_data.py --raw_data_path ../data --dest_path ./output
+
+2.
+mlflow ui --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns
+Open http://127.0.0.1:5000 and can see all the experminets data will be generated during next 3 steps run.
+
+3. 
+python3 train.py    and see mlflow ui
+
+4. 
+python3 hpo.py      and see mlflow ui
+
+5. 
+python3 register_model.py   and see mlflow ui
+```
 
 ## Q1. Install MLflow
 
 To get started with MLflow you'll need to install the MLflow Python package.
-
-For this we recommend creating a separate Python environment, for example, you can use [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-envs), and then install the package there with `pip` or `conda`.
 
 Once you installed the package, run the command `mlflow --version` and check the output.
 
@@ -31,25 +50,9 @@ The script will:
 * save the preprocessed datasets and the `DictVectorizer` to disk.
 
 Your task is to download the datasets and then execute these command:
-
+```   
+python preprocess_data.py --raw_data_path <TAXI_DATA_FOLDER> --dest_path ./output
 ```
-1.
-python preprocess_data.py --raw_data_path ../data --dest_path ./output
-
-2.
-mlflow ui --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns
-Open http://127.0.0.1:5000 and can see all the experminets data will be generated during next 3 steps run.
-
-3. 
-python3 train.py    and see mlflow ui
-
-4. 
-python3 hpo.py      and see mlflow ui
-
-5. 
-python3 register_model.py   and see mlflow ui
-```
-
 
 How many files were saved to `OUTPUT_FOLDER`?
 
