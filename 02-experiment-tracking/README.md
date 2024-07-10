@@ -30,7 +30,7 @@ The script will:
 * fit a `DictVectorizer` on the training set (January 2023 data),
 * save the preprocessed datasets and the `DictVectorizer` to disk.
 
-Your task is to download the datasets and then execute this command:
+Your task is to download the datasets and then execute these command:
 
 ```
 1.
@@ -38,10 +38,16 @@ python preprocess_data.py --raw_data_path ../data --dest_path ./output
 
 2.
 mlflow ui --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns
-Open http://127.0.0.1:5000
+Open http://127.0.0.1:5000 and can see all the experminets data will be generated during next 3 steps run.
 
 3. 
-python3 train.py
+python3 train.py    and see mlflow ui
+
+4. 
+python3 hpo.py      and see mlflow ui
+
+5. 
+python3 register_model.py   and see mlflow ui
 ```
 
 
