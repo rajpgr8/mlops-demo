@@ -53,6 +53,13 @@ with mlflow.start_run():
     mlflow.log_artifact(local_path="models/lin_reg.bin", artifact_path="models_pickle")  # Save model from local path to artifact 
 ```
 
+#  Other Example code:
+```
+df = pd.read_parquet("../data/fhv_tripdata_2021-01.parquet")
+OR
+df = pd.read_parquet("https://d37ci6vzurychx.cloudfront.net/trip-data/fhv_tripdata_2021-01.parquet")
+```
+
 ![image](https://github.com/rajpgr8/mlops-demo/assets/23621486/969eb493-d02e-4629-bfa5-9cf8baeb55a2)
 
 ### Screenshot of jupyter notebook

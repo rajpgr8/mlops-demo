@@ -1,0 +1,15 @@
+jupyter
+ipykernel
+pandas
+numpy
+scikit-learn
+pyarrow
+seaborn
+requests
+boto3
+Flask
+black
+#fastparquet
+#hyperopt
+#mlflow
+#orjson
