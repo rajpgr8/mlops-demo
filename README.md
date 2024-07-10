@@ -48,6 +48,11 @@ mlflow ui --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlru
 ```
 ```
 #  Example of mlflow code, how to use log_param/log_param/log_metric/log_artifact
+
+import mlflow
+mlflow.set_tracking_uri("http://127.0.0.1:5000")
+mlflow.set_experiment("nyc-taxi-experiment")
+
 with mlflow.start_run():
 
     mlflow.set_tag("developer", "rp")
